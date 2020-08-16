@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* First header
+==================== */
+
+.first-header {
+    background-color: #fef7f6;
+    padding: 5px 0  7px 0;
+}
+
+.first-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-header-contacts {
+    display: flex;
+}
+
+.first-header-phone {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.first-hesder-email {
+    display: flex;
+    margin-left: 20px;
+
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.first-header-nav {
+    display: flex;
+}
+
+.first-header-nav-link {
+    text-decoration: none;
+    color: #444242;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.first-header-form {
+    display: flex;
+}
+
+.label {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.first-hesder-select {
+    width: 18px;
+    border: none;
+    background-color: #fef7f6;
+}
+
+/* Main header
+===================== */
+
+.main-header {
+    margin: 10px;
+}
+
+.main-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-brabd {
+    font-size: 34px;
+    color: #121212;
+    font-weight: 700;
+}
+
+.main-header-brabd-red {
+    color: red;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.main-header-nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px;
+    color: #121212;
+}
+
+.main-header-icons-link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px;
+        align-items: center;
+}
+
+/* Page
+=================== */
+
+.page {
+    background: url(../img/BG.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 790px;
+
+
+}
+
+.vector-smart {
+    width: 80%;
+    height: 891px;
+    background: url(../img/Vector\ Smart\ Object.png);
+    opacity: 0.7;
+    position: absolute;
+    top: -2px;
+}
+
+.page-text {
+    width: 490px;
+    height: 2700px;
+    position: relative;
+    top: 200px;
+}
+
+.main-text-i {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.button {
+    margin-top: 60px;
+    position: relative;
+    left: 150px;
+
+    width: 170px;
+    padding: 20px 45px;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+
+    background-color: #ff5353;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
